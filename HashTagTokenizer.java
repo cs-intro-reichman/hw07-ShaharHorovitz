@@ -4,10 +4,8 @@ public class HashTagTokenizer {
 
 	public static void main(String[] args) {
 
-		String hashTag = "iloverecursion";
+		String hashTag = args[0];
 		String []dictionary = readDictionary("dictionary.txt");
-		String word = "ajjjjj"; 
-		System.out.println(existInDictionary(word, dictionary));
 		breakHashTag(hashTag, dictionary);
 	}
 

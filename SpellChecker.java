@@ -70,7 +70,7 @@ public class SpellChecker {
 		if (min > threshold)
 		{
 			String s = ""; 
-			return s; 
+			return word; 
 		}
 		else 
 		{
